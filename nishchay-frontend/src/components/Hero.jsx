@@ -21,7 +21,7 @@ export default function Hero() {
         <div className={`animate-fade-up-4`} id="signup">
           <WaitlistForm successId="hero-success" />
           <p className={styles.signupNote}>
-            Free early access · No credit card · Launching in 2 weeks
+            Free early access · No credit card · Launching in 3 weeks
           </p>
         </div>
       </div>
