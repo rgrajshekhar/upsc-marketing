@@ -10,7 +10,7 @@ export default function FinalCta() {
       </h2>
       <p className={styles.sub}>
         Join 200+ aspirants already on the waitlist.<br />
-        Early access opens in 2 weeks.
+        Early access opens in 3 weeks.
       </p>
       <div className={styles.formWrap}>
         <WaitlistForm dark successId="final-success" />
