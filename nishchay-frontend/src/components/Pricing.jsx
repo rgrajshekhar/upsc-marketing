@@ -18,7 +18,7 @@ const plans = [
   },
   {
     name: 'Pro Monthly',
-    amount: '₹349',
+    amount: '₹399',
     period: 'per month · cancel anytime',
     features: [
       'Unlimited adaptive replans',
@@ -34,7 +34,7 @@ const plans = [
   },
   {
     name: 'Pro Yearly',
-    amount: '₹1,799',
+    amount: '₹2,799',
     period: 'per year · save 57%',
     features: [
       'Everything in Pro Monthly',
