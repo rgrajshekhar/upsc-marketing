@@ -1,0 +1,107 @@
+.signupBox {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 480px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  padding: 14px 18px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: white;
+  color: var(--ink);
+  font-size: 15px;
+  font-family: 'DM Sans', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: var(--moss);
+}
+
+.input::placeholder {
+  color: #b0a89a;
+}
+
+.inputError {
+  border-color: #c0392b !important;
+}
+
+/* Dark variant (final CTA section) */
+.inputDark {
+  background: #161612;
+  color: var(--paper);
+  border-color: #2a2a26;
+}
+
+.inputDark:focus {
+  border-color: var(--moss-light);
+}
+
+.inputDark::placeholder {
+  color: #4a4a42;
+}
+
+.signupBtn {
+  padding: 14px 28px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background: var(--moss);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  transition: background 0.2s, transform 0.1s;
+  white-space: nowrap;
+}
+
+.signupBtn:hover:not(:disabled) {
+  background: var(--moss-light);
+}
+
+.signupBtn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.signupBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.errorText {
+  font-size: 13px;
+  color: #c0392b;
+}
+
+.successMsg {
+  padding: 14px 18px;
+  border-radius: 4px;
+  background: #e6f4e8;
+  border: 1px solid #9dcfa3;
+  color: #2a6b30;
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 480px;
+}
+
+.successDark {
+  background: #1e2e1f;
+  border-color: #2d4a2e;
+  color: #9dcfa3;
+  margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+  .inputRow {
+    flex-direction: column;
+  }
+}
